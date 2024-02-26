@@ -39,15 +39,15 @@ const ItemCount = ({stock, onAdd}) => {
   
     return(
         <div className="btn-group" role="group" aria-label="Basic example">
-            <button type="button" className="btn btn-primary" onClick={decrement}>-</button>
-            <button type="button" className="btn btn-primary">{counter}</button>
-            <button type="button" className="btn btn-primary" onClick={increment}>+</button>
-            <button type="button" className="btn btn-primary" onClick={addToCart}>Agregar al carrito</button>
+            <button type="button" className="btn btn-dark" onClick={decrement}>-</button>
+            <button type="button" className="btn btn-dark">{counter}</button>
+            <button type="button" className="btn btn-dark" onClick={increment}>+</button>
+           
             {showGoToCart  && (
-               <Link to={"/cart"}> <button type="button" className="btn btn-primary">Ir al carrito</button></Link>
+               <Link to={"/cart"}> <button type="button" className="btn btn-warning">Ir al carrito</button></Link>
     
             )
-            }
+            } <button type="button" className="btn btn-dark" onClick={addToCart}>Agregar al carrito</button>
 </div>
     )
 };
