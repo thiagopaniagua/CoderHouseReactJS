@@ -1,91 +1,102 @@
 [
       {
-        "id": 1,
+        "idx": 1,
         "category": "sorrentinos",
         "name": "Sorrentinos de Jamón y Queso",
         "description": "Deliciosos sorrentinos rellenos de jamón y queso.",
         "price": 2500,
         "image": "https://img-global.cpcdn.com/recipes/0043cee8486314ac/680x482cq70/masa-de-pastas-sorrentinos-ravioles-fideos-lasana-foto-principal.jpg"
+        ,"stock":10
       },
       {
-        "id": 2,
+        "idx": 2,
         "category": "sorrentinos",
         "name": "Sorrentinos de Ricota y Espinaca",
         "description": "Sorrentinos con un suave relleno de ricota y espinaca.",
         "price": 2800,
         "image": "https://img-global.cpcdn.com/recipes/0043cee8486314ac/680x482cq70/masa-de-pastas-sorrentinos-ravioles-fideos-lasana-foto-principal.jpg"
+        ,"stock":10
       },
       {
-        "id": 3,
+        "idx": 3,
         "category": "sorrentinos",
         "name": "Sorrentinos de Pollo picado",
         "description": "Sorrentinos rellenos de jugoso pollo y especias.",
         "price": 2600,
         "image": "https://img-global.cpcdn.com/recipes/0043cee8486314ac/680x482cq70/masa-de-pastas-sorrentinos-ravioles-fideos-lasana-foto-principal.jpg"
+        ,"stock":10
       },
       {
-        "id": 4,
+        "idx": 4,
         "category": "canelones",
         "name": "Canelones de Jamón y Queso",
         "description": "Canelones gratinados rellenos de jamón y queso.",
         "price": 2800,
         "image": "https://www.recetasdesbieta.com/wp-content/uploads/2021/01/canelones-destacada-500x375.jpg"
+        ,"stock":10
       },
       {
-        "id": 5,
+        "idx": 5,
         "category": "canelones",
         "name": "Canelones de Ricota y Espinaca",
         "description": "Canelones con un relleno suave de ricota y espinaca.",
         "price": 3000,
         "image": "https://www.recetasdesbieta.com/wp-content/uploads/2021/01/canelones-destacada-500x375.jpg"
+        ,"stock":10
       },
       {
-        "id": 6,
+        "idx": 6,
         "category": "canelones",
         "name": "Canelones de Pollo",
         "description": "Canelones gratinados rellenos de jugoso pollo.",
         "price": 3000,
         "image": "https://www.recetasdesbieta.com/wp-content/uploads/2021/01/canelones-destacada-500x375.jpg"
+        ,"stock":10
       },
       {
-        "id": 7,
+        "idx": 7,
         "category": "fideos",
         "name": "Fideos de Huevo",
         "description": "Fideos frescos de huevo para acompañar tus platos favoritos.",
         "price": 1999,
         "image": "https://www.paulinacocina.net/wp-content/uploads/2020/05/fideos-caseros.jpg"
+        ,"stock":10
       },
       {
-        "id": 8,
+        "idx": 8,
         "category": "fideos",
         "name": "Fideos de Trigo Integral",
         "description": "Fideos integrales para una opción más saludable.",
         "price": 2100,
         "image": "https://img-global.cpcdn.com/recipes/2547018_395eb2e120573677/1200x630cq70/photo.jpg"
+        ,"stock":10
       },
       {
-        "id": 9,
+        "idx": 9,
         "category": "raviolones",
         "name": "Raviolones de Jamón y Queso",
         "description": "Deliciosos Raviolones rellenos de jamón y queso.",
         "price": 2500,
         "image": "https://diarioandino2.cdn.net.ar/i1700/diarioandino2/images/07/49/74938_c08c40a65ac4a9c7b2a2f0c5feee99c73b4ac14a80cb0357e8255d55c694c922/sm.webp"
+        ,"stock":10
       },
       {
-        "id": 10,
+        "idx": 10,
         "category": "raviolones",
         "name": "Raviolones de Ricota y Espinaca",
         "description": "Raviolones con un suave relleno de ricota y espinaca.",
         "price": 2800,
         "image": "https://diarioandino2.cdn.net.ar/i1700/diarioandino2/images/07/49/74938_c08c40a65ac4a9c7b2a2f0c5feee99c73b4ac14a80cb0357e8255d55c694c922/sm.webp"
+        ,"stock":10
       },
       {
-        "id": 11,
+        "idx": 11,
         "category": "raviolones",
         "name": "Raviolones de Pollo",
         "description": "Raviolones rellenos de jugoso pollo.",
         "price": 2600,
         "image": "https://diarioandino2.cdn.net.ar/i1700/diarioandino2/images/07/49/74938_c08c40a65ac4a9c7b2a2f0c5feee99c73b4ac14a80cb0357e8255d55c694c922/sm.webp"
+        ,"stock":10
       }
     ]
   

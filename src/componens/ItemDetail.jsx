@@ -1,6 +1,14 @@
-import { Link } from "react-router-dom";
+
+import ItemCount from "./ItemCount";
+import { useContext } from "react";
+import { CartContext } from "./context/CartContext";
 
 const ItemDetail = ({item})=>{
+    const {addItem} = useContext(CartContext);
+
+        const onAdd = (quantity) => {
+            addItem(item, quantity);
+        }
     return(
         <div className="container">
             <div className="row d-flex justify-content-center">
@@ -11,6 +19,7 @@ const ItemDetail = ({item})=>{
                     <h3>{item.name}</h3>
                     <p>{item.description}</p>
                     <h4>${item.price}</h4>
+                    <ItemCount stock={item.stock} onAdd={onAdd}/>
                 </div>
             </div>
         </div>
